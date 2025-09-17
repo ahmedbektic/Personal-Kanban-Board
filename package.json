@@ -1,0 +1,19 @@
+{
+  "name": "personal-kanban-board",
+  "version": "1.0.0",
+  "description": "A modern Personal Kanban Board application built with React and Node.js/Express",
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "dev": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": ["kanban", "react", "express", "productivity", "task-management"],
+  "author": "",
+  "license": "MIT"
+}
