@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .kanban-column {
+    @apply bg-gray-50 dark:bg-gray-800 rounded-lg p-4 min-h-[500px] transition-colors duration-200;
+  }
+  
+  .kanban-task {
+    @apply bg-white dark:bg-gray-700 rounded-lg p-4 mb-3 shadow-sm border border-gray-200 dark:border-gray-600 cursor-move transition-all duration-200 hover:shadow-md;
+  }
+  
+  .kanban-task:hover {
+    @apply transform scale-[1.02];
+  }
+  
+  .task-overdue {
+    @apply border-red-500 bg-red-50 dark:bg-red-900/20;
+  }
+  
+  .task-due-today {
+    @apply border-yellow-500 bg-yellow-50 dark:bg-yellow-900/20;
+  }
+}
