@@ -2,7 +2,9 @@
 
 A modern, responsive Kanban board application built with React and Node.js/Express. Organize your tasks efficiently with drag-and-drop functionality, custom columns, and advanced filtering options.
 
-## Features
+## Screenshot
+
+https://ibb.co/wNpbLJ2D
 
 ### Core Functionality
 
@@ -197,3 +199,4 @@ personal-kanban-board/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
