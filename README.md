@@ -197,21 +197,3 @@ personal-kanban-board/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Screenshots
-
-### Light Mode
-
-![Light Mode Screenshot](screenshots/light-mode.png)
-
-### Dark Mode
-
-![Dark Mode Screenshot](screenshots/dark-mode.png)
-
-### Mobile View
-
-![Mobile Screenshot](screenshots/mobile-view.png)
-
----
-
-**Note**: This application uses localStorage for data persistence. Clearing your browser data will remove all saved tasks and columns.
